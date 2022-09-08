@@ -124,9 +124,9 @@
           <p>
             <span
               @click="showLoginHideSignup"
-              class="log-in"
+              class="create-acc"
             >
-              Login?
+              Login
             </span>
           </p>
           <!-- <input type="button" @click="checkForm" class="sign-up-btn" value="Sign up" /> -->
