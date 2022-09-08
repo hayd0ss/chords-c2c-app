@@ -34,7 +34,6 @@
                   name="userPassword"
                   class="password-inp"
                   v-model="loginFormValue.loginPassword"
-                  @click:append="show1 = !show1"
                   @keyup.enter="login"
                 />
               </div>
@@ -122,6 +121,14 @@
             class="sign-up-btn"
             value="Sign up"
           />
+          <p>
+            <span
+              @click="showLoginHideSignup"
+              class="log-in"
+            >
+              Login?
+            </span>
+          </p>
           <!-- <input type="button" @click="checkForm" class="sign-up-btn" value="Sign up" /> -->
         </div>
       </form>
