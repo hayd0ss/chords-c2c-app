@@ -1,0 +1,3 @@
+@import url(./assets/styles/main.scss);
+@use "@material/card";
+@include card.core-styles;
